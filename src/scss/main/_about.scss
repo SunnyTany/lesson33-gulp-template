@@ -1,0 +1,14 @@
+@use '../presets' as *;
+@use "../common" as *;
+
+.about {
+  background-color: $white-color;
+
+  &__title {
+    @include section-title;
+  }
+
+  &__desc {
+    @include section-desc;
+  }
+}
